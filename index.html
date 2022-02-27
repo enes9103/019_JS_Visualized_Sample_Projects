@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newstyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1">
+            <!--! email validation -->
+            <h2>E-mail Validation</h2>
+            <p>Enter the email address you want to check:</p><br>
+            <input class="input" type="text" placeholder="example@gmail.com">
+            <button class="check">Check</button>
+            <p class="resultEmail"></p>
+        </div>
+        <div class="box box2">
+            <!--! Count Digits -->
+            <h2>Count Digits</h2>
+            <label for="lownumber"></label>
+            <input id="lownumber" type="number" name="lownumber" placeholder="lownumber" />
+            <label for="highnumber"></label>
+            <input id="highnumber" type="number" name="highnumber" placeholder="highnumber" />
+            <label for="searchnumber"></label>
+            <input id="searchnumber" type="number" name="searchnumber"
+                placeholder=" which number are you search digits" /> <br>
+            <button id="btn1">Count Digits</button>
+            <p class="resultDigit"></p>
+        </div>
+        <div class="box box3">
+            <!--! capital letters -->
+            <h2>Capital Letters</h2>
+            <textarea name="alan" id="textArea" class="textArea" cols="40" rows="8"
+                placeholder="Please Enter text here">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ut facere mollitia velit dolor hic quibusdam tempora consequuntur perspiciatis quo exercitationem placeat deleniti, ex vel quod nobis! Recusandae quo officiis cupiditate saepe repellat perspiciatis tempore laborum alias iure itaque nostrum.</textarea>
+            <br>
+            <div class="buttonDiv">
+                <button class="button" id="button">Capitilized</button>
+            </div>
+            <div class="bos" id="bos"></div>
+        </div>
+        <div class="box box4">
+            <!--! Palindromic and Perfect Numbers Lists -->
+            <h2>Palindromic and Perfect Numbers</h2>
+            <div style="display: flex">
+                <input type="number" id="number10" placeholder="low limit" />
+                <input type="number" id="number20" placeholder="top limit" />
+            </div>
+            <div style="display: flex">
+                <button id="btn10">list Palindromic</button>
+                <button id="btn20">list Perfect number</button>
+            </div>
+            <div style="display: flex">
+                <textarea name="palin" id="palin" cols="30" rows="10"></textarea>
+                <textarea name="perfect" id="perfect" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="box box5">
+            <!--! TR Identity Number Validation -->
+            <h2>Identity Number Validation</h2>
+            <label for="tr"></label>
+            <input id="tr" type="number" name="tr" placeholder=" Enter your id number" />
+            <button id="btn3">Valid Id</button>
+            <p class="idText"></p>
+        </div>
+        <div class="box box6">
+            <!--! Vowels in a string -->
+            <h2>Vowels In a String</h2>
+            <textarea name="text2" id="text2" placeholder=" Enter your sentence to find vowels"></textarea><br>
+            <button id="btn6">Count Vowels</button>
+            <div id="vowels"></div>
+        </div>
+        <div class="box box7">
+            <!--! lotery game -->
+            <h2>Lotery Game</h2>
+            <div class="lotteryContainer">
+                <div class="inputButton">
+                    <input type="number" name="number" id="number" max="8"
+                        placeholder="Please enter the quantity of set you want.">
+                    <button class="lotteryButton">Generate</button>
+                    <h3>Your Lucky Numbers Are : </h3>
+                </div>
+            </div>
+        </div>
+        <div class="box box8">
+            <!--! Student Registration -->
+            <h2>Student Registration</h2>
+            <div id="table"></div>
+        </div>
+        <div class="box box9">9</div>
+        <div class="box box10">
+            <!--! simple calculator -->
+            <h2>Simple Calculator</h2>
+            <input type="number" class="number1" placeholder="First Number">
+            <input type="text" class="operator" placeholder="Operand">
+            <input type="number" class="number2" placeholder="Second Number">
+            <button class="calculate">Calculate</button>
+            <h1 class="title"></h1>
+        </div>
+        <div class="box box11">
+            <!--! Draw Diamond with Star Character -->
+            <h2>Draw Diamond with Star Character</h2>
+            <input type="number" id="stars" placeholder="How many stars" />
+            <textarea name="outline" id="outline" cols="40" rows="12"></textarea>
+        </div>
+        <div class="box box12">12</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
