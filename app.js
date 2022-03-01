@@ -5,7 +5,6 @@ let check = document.querySelector(".check");
 let resultEmail = document.querySelector(".resultEmail");
 
 check.addEventListener("click", controller);
-
 function controller() {
   let dot = input.value.indexOf("."); // "." nın indeksini bulduk
   let slc = input.value.slice(dot + 1) //  slice ile "." nın indeksi + 1 den sonuna kadar döndür // slice(start, end)
@@ -23,7 +22,6 @@ function controller() {
 }
 
 // ! count digits
-
 const low = document.getElementById('lownumber')
 const high = document.getElementById('highnumber')
 const search = document.getElementById('searchnumber')
@@ -48,7 +46,6 @@ function count() {
 }
 
 // ! Capital Letters
-
 let text = document.querySelector('#textArea');
 let buton = document.querySelector('#button');
 let output = document.querySelector('#bos');
@@ -68,7 +65,6 @@ function cap() {
 }
 
 // ! Palindromic and Perfect Numbers Lists
-
 const lowlmit = document.getElementById('number10')
 const toplimit = document.getElementById('number20')
 const btnpalin = document.getElementById('btn10')
@@ -198,7 +194,6 @@ btn6.addEventListener('click', () => {
 })
 
 // !  Lottery Game
-
 let giris = document.querySelector("#number");
 let lotteryButon = document.querySelector(".lotteryButton");
 let lotteryContainer = document.querySelector(".lotteryContainer");
@@ -244,7 +239,6 @@ function run() {
 }
 
 // ! Student Registration
-
 const data = [
   'C1234 - John Doe, London, Full-Stack',
   'C2345 - Jane Doe, London, Data-Science',
@@ -289,7 +283,6 @@ data.forEach((datainfo) => {
 })
 
 // !  Simple Calculator
-
 let number1 = document.querySelector(".number1");
 let number2 = document.querySelector(".number2");
 let operator = document.querySelector(".operator");
@@ -320,7 +313,6 @@ function calc() {
 }
 
 // ! Draw Diamond with Star Character
-
 const starsnumber = document.getElementById('stars')
 const outline = document.getElementById('outline')
 
@@ -354,10 +346,3 @@ starsnumber.addEventListener('change', (e) => {
     starsnumber.value = ""
   }, 4000);
 })
-
-
-
-
-
-
-
